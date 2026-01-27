@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Level 1: DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="basics.html">Level 1: The DOM</a>
+        <a href="logic.html">Level 2: Logic</a>
+    </nav>
+
+    <div class="container">
+        
+        <div class="card" id="greeting-card">
+            <h2>Challenge 1: The Greeter</h2>
+            <p><strong>Goal:</strong> When the button is clicked, change the text below to "Hello, JavaScripter!"</p>
+            <hr>
+            <h3 id="greeting-text">I am waiting to be changed...</h3>
+            <button id="btn-change-text">Change Text</button>
+        </div>
+
+        <div class="card">
+            <h2>Challenge 2: The Theme Switcher</h2>
+            <p><strong>Goal:</strong> Toggle the 'dark-mode' class on the HTML body when clicked.</p>
+            <hr>
+            <button id="btn-theme-toggle">Toggle Dark Mode</button>
+        </div>
+
+        <div class="card">
+            <h2>Challenge 3: The Echo</h2>
+            <p><strong>Goal:</strong> Take the value from the input and display it in the span below.</p>
+            <hr>
+            <input type="text" id="input-echo" placeholder="Type something here...">
+            <button id="btn-echo">Echo to Output</button>
+            <p>Output: <span id="echo-output" style="font-weight: bold; color: var(--primary);">...</span></p>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
