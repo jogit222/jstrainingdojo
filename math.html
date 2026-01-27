@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Dojo - Level 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> <a href="basics.html">1</a> <a href="logic.html">2</a> 
+        <a href="timer.html">3</a> <a href="api.html">4</a> <a href="forms.html">5</a> 
+        <a href="math.html">6</a> <a href="storage.html">7</a>
+    </nav>
+    <div class="container">
+        <div class="card">
+            <h1>Level 6: Arithmetic</h1>
+            <p><strong>Goal:</strong> Perform calculations using the Math object.</p>
+            <hr>
+            <input type="number" id="num-input" placeholder="Enter number" style="width: 100%; margin-bottom: 10px;">
+            <div style="display: flex; gap: 5px;">
+                <button id="btn-square" style="flex: 1;">Square ($x^2$)</button>
+                <button id="btn-sqrt" style="flex: 1;">Root ($\sqrt{x}$)</button>
+                <button id="btn-round" style="flex: 1;">Round</button>
+            </div>
+            <h2 style="margin-top: 20px; text-align: center;">Result: <span id="math-result">0</span></h2>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
