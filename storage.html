@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Dojo - Level 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> <a href="basics.html">1</a> <a href="logic.html">2</a> 
+        <a href="timer.html">3</a> <a href="api.html">4</a> <a href="forms.html">5</a> 
+        <a href="math.html">6</a> <a href="storage.html">7</a>
+    </nav>
+    <div class="container">
+        <div class="card">
+            <h1>Level 7: Local Storage</h1>
+            <p><strong>Goal:</strong> Save data that persists after a refresh.</p>
+            <hr>
+            <textarea id="note-pad" rows="10" style="width: 100%; border-radius: 5px; padding: 10px; border: 2px solid #cbd5e1;" placeholder="Type a note..."></textarea>
+            <div style="margin-top: 10px; display: flex; justify-content: space-between;">
+                <button id="btn-save-note">💾 Save Note</button>
+                <button id="btn-delete-note" style="background-color: #ef4444;">🗑️ Wipe Memory</button>
+            </div>
+            <p id="save-status" style="margin-top: 10px; font-size: 0.8rem; color: #64748b;"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
