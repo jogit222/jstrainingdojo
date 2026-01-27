@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Dojo - Level 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> <a href="basics.html">1</a> <a href="logic.html">2</a> 
+        <a href="timer.html">3</a> <a href="api.html">4</a> <a href="forms.html">5</a> 
+        <a href="math.html">6</a> <a href="storage.html">7</a>
+    </nav>
+    <div class="container">
+        <div class="card">
+            <h1>Level 5: Form Security</h1>
+            <p><strong>Goal:</strong> Only allow "Register" if requirements are met.</p>
+            <hr>
+            <form id="practice-form">
+                <div style="margin-bottom: 15px;">
+                    <label>Email:</label><br>
+                    <input type="text" id="email-field" style="width: 100%;">
+                    <p id="email-error" style="color: red; font-size: 0.8rem; margin: 5px 0;" class="hidden">Invalid email address</p>
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label>Password ($n \ge 8$ chars):</label><br>
+                    <input type="password" id="pass-field" style="width: 100%;">
+                </div>
+                <button type="submit" id="btn-submit" style="width: 100%;">Register</button>
+            </form>
+            <p id="success-msg" style="color: green; font-weight: bold; text-align: center;" class="hidden">✅ Registration Complete!</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
