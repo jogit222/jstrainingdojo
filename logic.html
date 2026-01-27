@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Level 2: Logic & Arrays</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="basics.html">Level 1: The DOM</a>
+        <a href="logic.html">Level 2: Logic</a>
+    </nav>
+
+    <div class="container">
+        
+        <div class="card">
+            <h1>Challenge: The Inventory List</h1>
+            <p><strong>Goal:</strong> Create a system to add items to an array and render them below.</p>
+            
+            <div style="background: #eee; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                <h4>Your coding checklist:</h4>
+                <ol>
+                    <li>Create an empty array in JS called <code>inventory</code>.</li>
+                    <li>When "Add Item" is clicked, push the input value to the array.</li>
+                    <li>Clear the list below and re-render the array items as <code>&lt;li&gt;</code> tags.</li>
+                    <li>(Bonus) Add a delete button to each item.</li>
+                </ol>
+            </div>
+
+            <div style="display: flex;">
+                <input type="text" id="item-input" placeholder="Enter new item...">
+                <button id="btn-add-item">Add Item</button>
+            </div>
+            
+            <hr>
+
+            <h3>Current Inventory:</h3>
+            <ul id="inventory-list">
+                </ul>
+            
+            <button id="btn-clear-all" style="background-color: #ef4444; margin-top: 10px;">Clear All</button>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
