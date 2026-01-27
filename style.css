@@ -1,0 +1,92 @@
+/* style.css */
+:root {
+  --primary: #6366f1;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #1e293b;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+nav {
+  background: var(--primary);
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  width: 90%;
+  margin-top: 2rem;
+}
+
+.card {
+  background: var(--card);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+h1, h2 { color: var(--primary); }
+
+button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 10px;
+  transition: transform 0.1s;
+}
+
+button:active { transform: scale(0.98); }
+
+input {
+  padding: 10px;
+  border: 2px solid #e2e8f0;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 60%;
+}
+
+/* Classes for you to toggle with JS */
+.hidden { display: none; }
+.highlight { border: 2px solid gold; background-color: #fffbeb; }
+.dark-mode { background-color: #1e293b; color: #f8fafc; }
+
+/* The placeholder for your list items */
+ul { list-style-type: none; padding: 0; }
+li {
+  background: #f1f5f9;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
