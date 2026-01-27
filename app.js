@@ -7,5 +7,5 @@ function changeText()    {
 
 if (greeting-text)   {
   const greetingText = document.getElementById('greeting-text')
-  const greetingText-button = document.getElementById('btn-change-text')
+  const greetingTextButton = document.getElementById('btn-change-text')
   greetingTextButton.addEventListener('click', changeText)
