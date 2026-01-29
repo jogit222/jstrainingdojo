@@ -2,7 +2,7 @@
  
 
 function changeText()    {
-  greetingText.innerText = 'Hello, welcome to Javascript Dojo';
+  document.getElementById('greeting-text').innerText = 'Hello, welcome to Javascript Dojo';
 }
 
 if (document.getElementById('greeting-text'))   {
